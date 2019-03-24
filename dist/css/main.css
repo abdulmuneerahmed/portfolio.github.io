@@ -21,6 +21,7 @@
       transform: rotate(-45deg) translate(6px, -6px); }
 
 .menu {
+  font-family: "Avenir-Heavy";
   position: fixed;
   top: 0;
   width: 100%;
@@ -79,6 +80,9 @@
       color: #eece1a;
       transition: all 0.5s ease-out; }
 
+      .card-title{
+        color: #eece1a;
+      }
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
 
@@ -100,7 +104,11 @@ body {
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.5; }
+  line-height: 1.5; 
+}
+body p{
+   font-family: "Avenir-Medium";
+}
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
@@ -118,6 +126,7 @@ body {
 h1,
 h2,
 h3 {
+  font-family: "Avenir-Book";
   margin: 0;
   font-weight: 400; }
   h1.lg-heading,
@@ -131,6 +140,9 @@ h3 {
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
 
+    h4{
+      font-family: "Avenir-Medium";
+    }
 a {
   color: #fff;
   text-decoration: none; }
@@ -161,7 +173,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bio-image bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bio-image bio bio'
+ 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bio-image;
@@ -187,6 +200,10 @@ main {
     text-align: justify;
     white-space: pre-line;
     word-spacing: 0px; }
+
+    .details{
+      font-family: "Avenir-Medium";
+    }
 
 .projectwork {
   display: grid;
@@ -279,10 +296,18 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bio-image' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'bio-image'
+ 'bio'
+ 'job1'
+ 'job2'
+ 'job3';
     grid-template-columns: 1fr; }
   .projectwork {
     grid-template-columns: repeat(2, 1fr); } }
+
+    .copy-right{
+      font-family: "Avenir-Medium";
+    }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
