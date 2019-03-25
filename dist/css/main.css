@@ -205,6 +205,9 @@ main {
       font-family: "Avenir-Medium";
     }
 
+    .git-link{
+      color: cyan;
+    }
 .projectwork {
   display: grid;
   grid-gap: 0.7rem;
